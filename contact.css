@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.header {
+  background-color: #0033A0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
+}
+
+.header .logo {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: auto;
+}
+header .logo-img {
+  height: 60px; /* Adjust the logo size */
+  margin-right: 10px;
+}
+.header .nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.header .location-btn {
+  background-color: #00cc66; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove default borders */
+  border-radius: 20px; /* Rounded edges */
+  padding:  10px; /* Add padding for size */
+  font-size: 16px; /* Adjust text size */
+  font-family: Arial, sans-serif; /* Ensure a clean, modern font */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.header .location-btn:hover {
+  background-color: #27a663; /* Darker green on hover */
+
+}
+
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    width: 100%;
+    max-width: 600px;
+    margin-right: auto; /* Center the form */
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 20px; /* Spacing between rows */
+  }
+  
+  .form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for the row */
+    gap: 20px; /* Spacing between columns */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #0056b3;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #004080;
+  }
+  
+  
+  .contact-info {
+    position: absolute;
+    top: 20%; /* Aligns with the form section */
+    right: 5%; /* Places it on the right side */
+    width: 30%; /* Adjust width for proper alignment */
+    text-align: left;
+    font-family: Arial, sans-serif; /* Matches modern design */
+    color: #003366; /* Matches the dark blue color in the design */
+  }
+  .vertical-line {
+    position: absolute; /* Precise positioning */
+    top: 20%; /* Starts below the header, adjust if necessary */
+    right: 40%; /* Positioned between the form and contact info */
+    width: 2px; /* Thickness of the line */
+    height: 60%; /* Line length, enough to cover the height of both sections */
+    background-color: #003366; /* Matches the color scheme in your design */
+    z-index: 1; /* Ensures the line appears above other content */
+  }
+  
+  .contact-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Paragraph styles for details */
+  .contact-info p {
+    margin: 0 0 20px 0; /* Adds spacing between sections */
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Email link styling */
+  .contact-info a {
+    color: #003366;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline; /* Adds a hover effect for links */
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }

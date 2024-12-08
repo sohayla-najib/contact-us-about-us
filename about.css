@@ -1,0 +1,138 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    background-color: #0033A0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: auto;
+}
+ header .logo-img {
+    height: 60px; /* Adjust the logo size */
+    margin-right: 10px;
+  }
+.header .nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header .location-btn {
+    background-color: #00cc66; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove default borders */
+    border-radius: 20px; /* Rounded edges */
+    padding: 10px 20px; /* Add padding for size */
+    font-size: 16px; /* Adjust text size */
+    font-family: Arial, sans-serif; /* Ensure a clean, modern font */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+
+
+.header .location-btn:hover {
+    background-color: #27a663;
+}
+
+.main-content {
+    padding: 40px 30px;
+    text-align: center;
+}
+.about-section {
+    padding: 10px ;
+    max-width: 900px;
+    margin: 0 auto; /* Centers the section on the page */
+    text-align: left; /* Aligns the text to the left */
+}
+
+.about-header {
+    display: flex;
+    align-items: baseline; /* Ensures the title and line are vertically aligned */
+    margin-bottom: 40px; /* Adds spacing below the header */
+}
+
+.about-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0033A0; /* Matches the blue color in the image */
+    margin-right: 70%; /* Adds space between the title and the line */
+    white-space: nowrap; /* Prevents the title from wrapping */
+}
+
+.about-line {
+    flex-grow: 1; /* Fills the remaining space with the line */
+    height: 2px;
+    background-color: #ccc;
+}
+
+
+
+
+.about-section h1 {
+    border-bottom: 2px solid #ccc;
+    display: inline-block;
+    font-size: 20px;
+    color: #0033A0; /* Matches the color in the design */
+    margin-right: 50%;
+}
+
+.about-section p {
+    margin: 15px 0;
+    line-height: 1.1;
+    max-width: 800px;
+    margin-left: 50%;
+}
+
+
+
+
+.vision-mission {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.vision, .mission {
+    background-color: #f4f9ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    text-align: left;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vision h2, .mission h2 {
+    color: #0033A0;
+    margin-bottom: 10px;
+}
+.separator {
+    width: 2px;
+    background-color: #ccc;
+    height: 150px; /* Adjust height as needed */
+    align-self: stretch; /* Makes the line stretch to the height of its parent */
+}
+.footer {
+    background-color: #0033A0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
